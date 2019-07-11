@@ -68,7 +68,7 @@ body {
 }
 
 .why-us__list {  list-style: none; padding-left: 0; }
-.why-us__list__item {  padding-bottom: 2%; }
+.why-us__list__item {  padding-bottom: 1.5%; }
 
 /* Responsive Layout - Scaled Up */
 /* iPad/Tablet and similar screens */
@@ -84,7 +84,7 @@ body {
   .btn {  margin: 5% 0 0; }
   .component-card {  margin: 2% 20%; }
   .hero {  padding: 2% 5% 5%; }
-  .hero__desc {  padding-right: 15%; font-size: 1.1rem; }
+  .hero__desc {  padding-right: 12%; font-size: 1.1rem; }
   .hero__tagline {  padding-bottom: 0; }
   .site-footer {  padding: 0; }
   .subscription {  padding: 5%; }
