@@ -1,0 +1,91 @@
+/* Mobile First Layout - min-width: 375px */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  background: hsl(218, 32%, 77%);
+  color: hsl(218, 22%, 67%);
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution__link { color: hsl(228, 45%, 44%); }
+
+.btn {
+  background: hsl(71, 73%, 54%);
+  color: #fff;
+  font-size: 1.25rem;
+  text-decoration: none;
+  padding: 6% 8%;
+  width: 80%;
+  margin: 5% 0;
+  display: inline-block;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px 0 hsl(218, 22%, 67%);
+}
+
+.btn:hover {  background: hsl(71, 73%, 74%); color: #000; }
+.component-card {  margin: 5%; box-shadow: 2px 4px 4px 0 #aaaaaa; border-radius: 10px; }
+.details {  border-radius: 0 0 10px 10px; }
+.details__title {  color: #fff; font-size: 1.3rem; }
+
+.hero {
+  background: #fff;
+  padding: 7%;
+  margin: 0;
+  border-radius: 10px 10px 0 0;
+}
+
+.hero__tagline {  color: hsl(71, 73%, 54%); font-size: 1.25rem; padding-bottom: 5%; }
+.hero__title {  color: hsl(179, 62%, 43%); font-size: 1.75rem; }
+
+.price {
+  color: #fff;
+  font-size: 2.25rem;
+  font-weight: 700;
+  padding-right: 4%;
+  vertical-align: middle;
+}
+
+.site-footer {  padding: 2% 5%; color: #fff; }
+
+.subscription {
+  background: hsl(179, 62%, 43%);
+  color: hsl(204, 43%, 93%);
+  padding: 7%;
+  margin: 0;
+}
+
+.why-us {
+  background: hsl(179, 72%, 43%);
+  color: hsl(204, 43%, 93%);
+  padding: 7%;
+  margin: 0;
+  border-radius: 0 0 10px 10px;
+}
+
+.why-us__list {  list-style: none; padding-left: 0; }
+
+/* Responsive Layout - Scaled Up */
+/* iPad/Tablet and similar screens */
+@media screen and (min-width: 700px) {
+  .attribution {  font-size: 14px; }
+  .details {  display: flex; }
+  .subscription {  width: 50%;   border-radius: 0 0 0 10px; }
+  .why-us {  width: 50%;   border-radius: 0 0 10px 0;}
+}
+
+/* Desktop and similar screens */
+@media screen and (min-width: 1200px) {
+  .btn {  margin: 5% 0 0; }
+  .component-card {  margin: 2% 20%; }
+  .hero {  padding: 2% 5% 5%; }
+  .hero__desc {  padding-right: 15%; font-size: 1.1rem; }
+  .hero__tagline {  padding-bottom: 0; }
+  .site-footer {  padding: 0; }
+  .subscription {  padding: 5%; }
+  .why-us {  padding: 5%; }
+}
