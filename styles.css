@@ -68,6 +68,7 @@ body {
 }
 
 .why-us__list {  list-style: none; padding-left: 0; }
+.why-us__list__item {  padding-bottom: 2%; }
 
 /* Responsive Layout - Scaled Up */
 /* iPad/Tablet and similar screens */
