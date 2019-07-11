@@ -1,4 +1,4 @@
-# Frontend Mentor - Huddle landing page with single column layout
+# Frontend Mentor - Single Price Grid Component
 
 ![Header/intro section for the Huddle landing page with single column layout](./design/desktop-preview.jpg)
 
